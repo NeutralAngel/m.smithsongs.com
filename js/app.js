@@ -47,7 +47,7 @@ App.PostsRoute = Ember.Route.extend({
 
 App.EventsRoute = Ember.Route.extend({
   model: function() {
-    return $.getJSON('http://localhost:3000/events.json');
+    return $.getJSON('http://www.smithsongs.com/events.json');
   }
 });
 
