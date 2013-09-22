@@ -1,0 +1,988 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"same",
+				"same_signature"
+			],
+			[
+				"sc",
+				"scan"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6057,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Windows",
+				"name": ".active {"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 2910,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Searching 61 files for \"meme\"\n\nF:\\starter-kit-1.0.0\\starter-kit-1.0.0\\bloggr.sublime-workspace:\n   25  		},\n   26  		{\n   27: 			\"contents\": \"<!DOCTYPE html>\\n<!--[if IE 8]> 				 <html class=\\\"no-js lt-ie9\\\" lang=\\\"en\\\" > <![endif]-->\\n<!--[if gt IE 8]><!--> <html class=\\\"no-js\\\" lang=\\\"en\\\" > <!--<![endif]-->\\n\\n<head>\\n	<meta charset=\\\"utf-8\\\">\\n  <meta name=\\\"viewport\\\" content=\\\"width=device-width\\\">\\n  <title>Foundation 4</title>\\n\\n  \\n  <link rel=\\\"stylesheet\\\" href=\\\"css/foundation.css\\\">\\n  \\n\\n  <script src=\\\"js/vendor/custom.modernizr.js\\\"></script>\\n\\n</head>\\n<body>\\n\\n  <nav class=\\\"top-bar\\\" data-options=\\\"is_hover:false\\\">\\n    <ul class=\\\"title-area\\\">\\n      <li class=\\\"name\\\">\\n        <h1><a href=\\\"#\\\">Bloggr</a></h1>\\n      </li>\\n      <li class=\\\"toggle-topbar menu-icon\\\"><a href=\\\"#\\\"><span>Menu</span></a></li>\\n    </ul>\\n    <section class=\\\"top-bar-section\\\">\\n      <ul class=\\\"right\\\">\\n            <li><a href=\\\"#\\\">Posts</a></li>\\n        <li><a href=\\\"#\\\">Dogs</a></li>\\n        <li><a href=\\\"#\\\">Cats</a></li>\\n        <li><a href=\\\"#\\\">Memes</a></li>\\n      </ul>\\n    </section>\\n  </nav>\\n\\n  <div class=\\\"row\\\">\\n    <div class=\\\"large-12 columns\\\">\\n     <h2>Welcome to Foundation</h2>\\n     <p>This is version 4.3.1.</p>\\n     <hr />\\n   </div>\\n </div>\\n\\n <div class=\\\"row\\\">\\n  <div class=\\\"large-8 columns\\\">\\n   <h3>The Grid</h3>\\n\\n   <!-- Grid Example -->\\n   <div class=\\\"row\\\">\\n    <div class=\\\"large-12 columns\\\">\\n     <div class=\\\"panel\\\">\\n      <p>This is a twelve column section in a row. Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>\\n    </div>\\n  </div>\\n</div>\\n<div class=\\\"row\\\">\\n  <div class=\\\"large-6 columns\\\">\\n   <div class=\\\"panel\\\">\\n    <p>Six columns</p>\\n  </div>\\n</div>\\n<div class=\\\"large-6 columns\\\">\\n <div class=\\\"panel\\\">\\n  <p>Six columns</p>\\n</div>\\n</div>\\n</div>\\n<div class=\\\"row\\\">\\n  <div class=\\\"large-4 columns\\\">\\n   <div class=\\\"panel\\\">\\n    <p>Four columns</p>\\n  </div>\\n</div>\\n<div class=\\\"large-4 columns\\\">\\n <div class=\\\"panel\\\">\\n  <p>Four columns</p>\\n</div>\\n</div>\\n<div class=\\\"large-4 columns\\\">\\n <div class=\\\"panel\\\">\\n  <p>Four columns</p>\\n</div>\\n</div>\\n</div>\\n\\n<h3>Buttons</h3>\\n\\n<div class=\\\"row\\\">\\n  <div class=\\\"large-6 columns\\\">\\n    <p><a href=\\\"#\\\" class=\\\"small button\\\">Small Button</a></p>\\n    <p><a href=\\\"#\\\" class=\\\"button\\\">Medium Button</a></p>\\n    <p><a href=\\\"#\\\" class=\\\"large button\\\">Large Button</a></p>\\n  </div>\\n  <div class=\\\"large-6 columns\\\">\\n    <p><a href=\\\"#\\\" class=\\\"small alert button\\\">Small Alert Button</a></p>\\n    <p><a href=\\\"#\\\" class=\\\"success button\\\">Medium Success Button</a></p>\\n    <p><a href=\\\"#\\\" class=\\\"large secondary button\\\">Large Secondary Button</a></p>\\n  </div>\\n</div>\\n</div>\\n\\n<div class=\\\"large-4 columns\\\">\\n <h4>Getting Started</h4>\\n <p>We're stoked you want to try Foundation! To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>\\n\\n <h4>Other Resources</h4>\\n <p>Once you've exhausted the fun in this document, you should check out:</p>\\n <ul class=\\\"disc\\\">\\n  <li><a href=\\\"http://foundation.zurb.com/docs\\\">Foundation Documentation</a><br />Everything you need to know about using the framework.</li>\\n  <li><a href=\\\"http://github.com/zurb/foundation\\\">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</li>\\n  <li><a href=\\\"http://twitter.com/foundationzurb\\\">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</li>\\n</ul>\\n</div>\\n</div>\\n\\n<script>\\ndocument.write('<script src=' +\\n  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +\\n  '.js><\\\\/script>')\\n</script>\\n\\n<script src=\\\"js/foundation.min.js\\\"></script>\\n  <!--\\n  \\n  <script src=\\\"js/foundation/foundation.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.alerts.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.clearing.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.cookie.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.dropdown.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.forms.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.joyride.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.magellan.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.orbit.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.reveal.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.section.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.tooltips.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.topbar.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.interchange.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.placeholder.js\\\"></script>\\n  \\n  <script src=\\\"js/foundation/foundation.abide.js\\\"></script>\\n  \\n-->\\n\\n<script>\\n$(document).foundation();\\n</script>\\n</body>\\n</html>\\n\",\n   28  			\"file\": \"/C/Users/Nathan/Downloads/foundation-4.3.1/index.html\",\n   29  			\"file_size\": 4657,\n\nF:\\starter-kit-1.0.0\\starter-kit-1.0.0\\index.html:\n   26              <li>{{#link-to 'about'}}About{{/link-to}}</li>\n   27              <li>{{#link-to 'ip'}}IP{{/link-to}}</li>\n   28:             <li>{{#link-to 'memes'}}Memes{{/link-to}}</li>\n   29            </ul>\n   30          </div>\n   ..\n   56      </script>\n   57  \n   58:     <script type=\"text/x-handlebars\" id=\"memes\">\n   59      <div class=\"row\">\n   60        <div class=\"large-3 columns\">\n   ..\n   65            {{#each model}}\n   66            <tr><td>\n   67:             {{#link-to 'meme' this}}{{description}}{{/link-to}}\n   68            </td></tr>\n   69            {{/each}}\n   ..\n   76      </script>\n   77  \n   78:     <script type=\"text/x-handlebars\" id=\"meme\">\n   79      <div>\n   80        <div>\n\nF:\\starter-kit-1.0.0\\starter-kit-1.0.0\\js\\app.js:\n   30      this.resource('post', { path: ':post_id' });\n   31    });\n   32:   this.resource('memes', function() {\n   33:     this.resource('meme', { path: ':event_id' });\n   34    });\n   35  });\n   ..\n   42  \n   43  \n   44: App.MemesRoute = Ember.Route.extend({\n   45    model: function() {\n   46      return $.getJSON('http://localhost:3000/events.json');\n   ..\n   62  });\n   63  \n   64: App.MemeRoute = Ember.Route.extend({\n   65    model: function(params) {\n   66      return $.getJSON('http://localhost:3000/events/'+params.event_id+'.json');\n\nC:\\Users\\Nathan\\Downloads\\foundation-4.3.1\\index.html:\n   24          <li><a href=\"#\">Dogs</a></li>\n   25          <li><a href=\"#\">Cats</a></li>\n   26:         <li><a href=\"#\">Memes</a></li>\n   27        </ul>\n   28      </section>\n\n11 matches across 4 files\n",
+			"settings":
+			{
+				"buffer_size": 6859,
+				"line_ending": "Windows",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
+			"file": "css/foundation.css",
+			"settings":
+			{
+				"buffer_size": 200323,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Nathan/Downloads/foundation-4.3.1/index.html",
+			"settings":
+			{
+				"buffer_size": 5085,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"package con",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"sublim",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"subli",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Nathan/Downloads/foundation-4.3.1/js/vendor/jquery.js",
+		"/F/starter-kit-1.0.0/starter-kit-1.0.0/css/style.css",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/HTMLBeautify/HTMLBeautify.sublime-settings",
+		"/F/starter-kit-1.0.0/starter-kit-1.0.0/js/app.js",
+		"/F/starter-kit-1.0.0/starter-kit-1.0.0/whatever.html",
+		"/F/Dropbox/ruby/exercism.sublime-project",
+		"/C/Users/Nathan/Dropbox/ruby/ruby/bob/ruby/word-count/phrase.rb",
+		"/C/Users/Nathan/Dropbox/ruby/ruby/bob/ruby/word-count/word-count_test.rb",
+		"/F/Dropbox/ruby/ruby/bob/ruby/word-count/spec/word-count_spec.rb",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/User/RubyTest.sublime-settings",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/RubyTest/Default (Windows).sublime-keymap",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/RubyTest/Default.sublime-keymap",
+		"/F/Dropbox/ruby/ruby/bob/ruby/word-count/word-count_spec.rb",
+		"/F/Dropbox/ruby/ruby/word-count/README.md",
+		"/F/Dropbox/ruby/ruby/bob/bob.rb",
+		"/F/Dropbox/ruby/ruby/bob/bob_test.rb",
+		"/F/smithsongs/app/views/layouts/application.html.erb",
+		"/F/smithsongs/Gemfile",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/RubyTest/RubyTest.sublime-settings",
+		"/F/Dropbox/ruby/ruby/bob/README.md",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/RubyTest/TestConsole.hidden-tmTheme",
+		"/F/Dropbox/ruby/challenge137.rb",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Nathan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/F/smithsongs/app/helpers/application_helper.rb",
+		"/F/smithsongs/app/controllers/line_items_controller.rb",
+		"/F/smithsongs/app/controllers/products_controller.rb",
+		"/F/smithsongs/app/models/venue.rb",
+		"/C/Users/Nathan/Documents/Rainmeter/Skins/Enigma/Sidebar/Reader/Reader.ini"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"meme",
+			".active",
+			"active",
+			"muted",
+			".row",
+			"row",
+			".css",
+			"style.css",
+			"jquery",
+			">\n",
+			"is_anagram",
+			"word_one",
+			"words",
+			"@words",
+			"input",
+			"  def test_stating_something\n",
+			"FF1493",
+			"strings"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 6057,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4200,
+								4203
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2658.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								69,
+								88
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"auto_name": ".active {",
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 2910,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2885,
+								2887
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1448.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 6859,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										1082,
+										1086
+									],
+									[
+										5445,
+										5449
+									],
+									[
+										5453,
+										5457
+									],
+									[
+										5604,
+										5608
+									],
+									[
+										5780,
+										5784
+									],
+									[
+										5958,
+										5962
+									],
+									[
+										6145,
+										6149
+									],
+									[
+										6192,
+										6196
+									],
+									[
+										6280,
+										6284
+									],
+									[
+										6445,
+										6449
+									],
+									[
+										6776,
+										6780
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "css/foundation.css",
+					"settings":
+					{
+						"buffer_size": 200323,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82121,
+								82128
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2051.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 5,
+					"file": "/C/Users/Nathan/Downloads/foundation-4.3.1/index.html",
+					"settings":
+					{
+						"buffer_size": 5085,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4295,
+								4295
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.771604938272,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 80.0
+	},
+	"output.markdown":
+	{
+		"height": 124.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/F/Dropbox/ruby/ruby/bob/ruby/word-count/phrase.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/C/Users/Nathan/Dropbox/ruby/exercism.sublime-project"
+			],
+			[
+				"\\",
+				"/F/smithsongs/smithsongs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}

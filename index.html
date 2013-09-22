@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html>
+  <head>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Nathan Ember/Foundation Test Page</title>
+      <link rel="stylesheet" href="css/foundation.css">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="js/vendor/custom.modernizr.js"></script>
+    </head>
+    <body>
+      <script type="text/x-handlebars">
+      <nav class="top-bar" data-options="is_hover:true">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">SmithSongs</a></h1>
+          </li>
+          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+        </ul>
+        <section class="top-bar-section">
+          <ul class="right">
+            <li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
+            <li>{{#link-to 'about'}}About{{/link-to}}</li>
+            <li>{{#link-to 'ip'}}IP{{/link-to}}</li>
+            <li>{{#link-to 'events'}}Events{{/link-to}}</li>
+          </ul>
+        </div>
+      </section>
+    </nav>
+    <div class="row">
+      <div class="large-12 columns">{{outlet}}</div>
+    </div>
+    </script>
+    
+    <script type="text/x-handlebars" id="posts">
+    <div class="row">
+      <div class="large-3 columns">
+        <table class='table'>
+          <thead>
+            <tr><th>Events</th></tr>
+          </thead>
+          {{#each model}}
+          <tr><td>
+            {{#link-to 'post' this}}{{title}} <small class='muted'>by {{author.name}}</small>{{/link-to}}
+          </td></tr>
+          {{/each}}
+        </table>
+      </div>
+      <div class="large-9 columns">
+        {{outlet}}
+      </div>
+    </div>
+    </script>
+
+    <script type="text/x-handlebars" id="events">
+    <div class="row">
+      <div class="small-8 small-centered columns">
+        <h1 class="text-center">Upcoming Events</h1>
+          {{#each model}}
+          {{partial 'event/show'}}
+          {{/each}}
+       </div>
+      </div>
+    </script>
+
+    <script type="text/x-handlebars" id="event/_show">
+    <div>
+      <div>
+        <div class="large-12 columns">
+          <table class='table' style="width: 100%">
+            <thead>
+              <tr><th>Date</th></tr>
+            </thead>
+            <tr>
+              <td>{{format-date event_date}}</td>
+            </tr>
+             <thead>
+              <tr><th>Time</th></tr>
+            </thead>
+            <tr>
+              <td>{{format-time begin_time}} - {{format-time end_time}}</td>
+            </tr>
+             <thead>
+              <tr><th>Description</th></tr>
+            </thead>
+            <tr>
+              <td><div>{{{description}}}</div></td>
+            </tr>
+            <thead>
+              <tr><th>Venue</th></tr>
+            </thead>
+            <tr>
+               <td><span data-tooltip class="has-tip" title="{{{venue.line1}}} {{venue.line2}} {{venue.city}}, {{venue.state}} {{venue.zip_code}}">{{venue.name}}</span></td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          {{outlet}}
+        </div>
+      </div>
+    </div>
+    </script>
+    <script type="text/x-handlebars" id="posts/index">
+    <p class="text-warning">Please select a post</p>
+    </script>
+    <script type="text/x-handlebars" id="ip">
+    <div class=".span1"</div>
+  <p class="text-info">{{ip}}</p></div>
+  </script>
+  
+  <script type="text/x-handlebars" id="post">
+  {{#if isEditing}}
+  {{partial 'post/edit'}}
+  <button {{action 'doneEditing'}}>Done</button>
+  {{else}}
+  <button {{action 'edit'}}>Edit</button>
+  {{/if}}
+  <h1>{{title}}</h1>
+  <h2>by {{author.name}} <small>({{format-date date}})</small></h2>
+  <hr>
+  <div>
+    <h6 class="subheader">{{format-markdown excerpt}}</h6>
+  </div>
+  <div>
+    <p>{{format-markdown body}}</p>
+  </div>
+  </script>
+  <script type="text/x-handlebars" id="post/_edit">
+  <p>{{input type="text" value=title}}</p>
+  <p>{{input type="text" value=excerpt}}</p>
+  <p>{{textarea value=body}}</p>
+  </script>
+  <script type="text/x-handlebars" id="about">
+  <div class='about'>
+    <p>Yehuda Katz is a member of the <a href="http://emberjs.com">Ember.js</a>, <a href="http://rubyonrails.org">Ruby on Rails</a>
+    and <a href="http://www.jquery.com">jQuery</a> Core Teams; he spends his daytime hours at the startup he founded,
+    <a href="http://www.tilde.io">Tilde Inc.</a>.</p>
+    <p>Yehuda is co-author of best-selling <a href="http://affiliate.manning.com/idevaffiliate.php?id=485_176">jQuery in Action</a> and
+    <a href="http://affiliate.manning.com/idevaffiliate.php?id=485_145">Rails 3 in Action</a>.</p>
+    <p>He spends most of his time hacking on open source—his main projects, along with others, like <a href="https://github.com/wycats/thor">Thor</a>,
+    <a href="http://www.handlebarsjs.com">Handlebars</a> and <a href="https://github.com/carlhuda/janus">Janus</a>—or traveling the world doing evangelism work.</p>
+    <p>He can be found on Twitter as <a href="http://www.twitter.com/wycats">@wycats</a>.</p>
+  </div>
+  <div class='about'>
+    <p>My name is Tom Dale. I helped create <a href="http://www.emberjs.com/">Ember.js</a>, a JavaScript framework that brings sanity to the web.</p>
+    <p>In October of 2011, I co-founded <a href="http://www.tilde.io">Tilde</a> with Yehuda Katz, Leah Silber and Carl Lerche.</p>
+    <p>In my spare time I run a cash-for-beer exchange program at many local San Francisco dive bars.</p>
+  </div>
+  </script>
+  
+  
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/libs/handlebars-1.0.0.js"></script>
+  <script src="js/libs/ember-1.0.0.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.1.0/moment.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/foundation.js"></script>
+  <script src="js/foundation.topbar.js"></script>
+  <script>
+  $(document).foundation();
+  </script>
+</body>
+</html>
